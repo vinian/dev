@@ -1,0 +1,10 @@
+<opml version="1.0">
+  <head>
+    <title>导出 Icedove OPML</title>
+    <dateCreated>Sun, 20 Nov 2011 16:45:23 GMT</dateCreated>
+  </head>
+  <body>
+    <outline title="reddit.com: what's new online" text="reddit.com: what's new online" type="rss" version="RSS" xmlUrl="http://feedex.net/feed/www.reddit.com/.rss" htmlUrl="http://www.reddit.com/"/>
+    <outline title="Newest perlmonks questions" text="Newest perlmonks questions" type="rss" version="RSS" xmlUrl="http://www.peeron.com/tickers/pm.xml" htmlUrl="http://perlmonks.org"/>
+  </body>
+</opml>
