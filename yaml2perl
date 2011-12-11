@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+#use Devel::Comments;
+
+use autobox::dump;
+
+use YAML;
+use YAML::Syck;
+
+my $file = shift 
+    or die "Usage: $0 file-name-of-yaml\n";
+
+my $yaml;
+eval {
+    $yaml = YAML::LoadFile( $file );
+};
+
+if ( $@ ){
+    eval {
+        $yaml = YAML::Syck::LoadFile( $file );
+    };
+    if ( $@ ){
+        print $@;
+        exit;
+    }
+}
+
+print $yaml->perl;
