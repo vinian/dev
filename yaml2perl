@@ -10,6 +10,10 @@ use autobox::dump;
 use YAML;
 use YAML::Syck;
 
+eval {
+    my $file = <>;
+}
+
 my $file = shift 
     or die "Usage: $0 file-name-of-yaml\n";
 
