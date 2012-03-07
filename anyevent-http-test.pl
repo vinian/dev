@@ -1,4 +1,4 @@
-p#!/usr/bin/perl
+#!/usr/bin/perl
 # anyevent for http test
 
 use warnings;
@@ -39,7 +39,7 @@ while ( $count++ < $max ) {
             timeout => $timeout,
             sub {
                 my ($body, $hdr) = @_;
-				push @$result, [ $url, $hdr->{Status}, $hdr->{Reason} ];
+                push @$result, [ $url, $hdr->{Status}, $hdr->{Reason} ];
                 undef $request;
                 $cv->end;
             }
@@ -53,4 +53,3 @@ my $foo = $cv->recv;
 # find the non 2xx status code and retry resquest
 
 print "Total elapsed time: ", time-$start, "ms\n";
-
