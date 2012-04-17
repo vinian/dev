@@ -5,8 +5,6 @@
 use strict;
 use warnings;
 
-use Devel::Comments;
-
 use JSON;
 
 use LWP::ConnCache;
