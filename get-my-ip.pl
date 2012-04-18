@@ -26,7 +26,7 @@ my $response = $ua->request( $request );
 my $perl_scalar;
 if ($response->is_success) {
     $perl_scalar = from_json( $response->decoded_content, { utf8  => 1 } );
-    print "Your Ip Address: ", $perl_scalar->{ip_addr}, "\n"; 
+    print $perl_scalar->{ip_addr}, "\n"; 
 }
 else {
     die $response->status_line;
