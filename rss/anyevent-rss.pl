@@ -1,49 +1,74 @@
-#!/usr/bin/perl
-# use anyevent for nonblock getting rss
-# it's not finished so he can't run
+#!/usr/bin/env perl
 
 use strict;
 use warnings;
 
 use Smart::Comments;
 
-use Encode qw(encode decode);
-
-use XML::Simple;
+use XML::OPML;
 use AnyEvent::HTTP;
 
-my $xml_file = shift;
+my $opml_file = shift;
 
-die "Usage: $0 rss-xml-file\n" if ( not defined $xml_file );
+usage() if not defined $opml_file;
 
-my $ref = XMLin( $xml_file, ForceArray => 1 );
+my $opml      = new XML::OPML;
+my $opml_data = $opml->parse( $opml_file );
 
-my $data_body = $ref->{body};
+my @rss_urls;
+foreach my $item ( @$opml_data ) {
+  my $rss_items = parse_opml( $item );
+  push @rss_urls, @$rss_items;
+}
 
-my $result = xml_parse( $data_body );
+my $method = 'GET';
 
-sub xml_parse {
-	my $data = shift;
+foreach my $rss_task ( @rss_urls ) {
+  my $request_url = $rss_task->{xmlUrl};
+  print "Get $request_url\n";
+  my $reqs = http_request( $method => $request_url, sub {
+				  my ($data, $hdr) = @_;
+				  print $hdr->as_string, "\n";
+				}
+			  );
+  undef $reqs;
+}
 
-	my $type = ref $data;
-	my @parseResult;
+sub handler {
+  my ($data, $hdr) = @_;
+  if ( $hdr->{Status} =~ /^2/ ) {
+	print "OK!\n";
+  }
+  else {
+   print "Not OK: $hdr->{Status}!\n";
+  }
+}
 
-	if ( $type eq 'ARRAY' ){
-		foreach my $item ( @$data ){
-			my $middle = xml_parse( $item );
-			push @parseResult, $middle;
-		}
+sub usage {
+  print "Usage:\n$0 ompl-file\n";
+  exit 1;
+}
+
+sub parse_opml {
+  my $data = shift;
+
+  my $ref_type = ref $data;
+
+  my @rss;
+  if ( $ref_type eq 'HASH' ) {
+	if ( exists $data->{type} ) {
+	  push @rss, $data;
 	}
-	elsif( $type eq 'HASH' ) {
-		my @found_keys = keys %$data;
-
-		if ( grep { /outline/ } @found_keys ) {
-			xml_parse( $data->{outline} );
+	else {
+	  foreach my $sub_item ( keys %$data ) {
+		if ( ref $data->{$sub_item} eq 'HASH' ) {
+		  if ( exists $data->{$sub_item}->{type} ) {
+			push @rss, $data->{$sub_item};
+		  }
 		}
-		else {
-			push @parseResult, $data;
-		}
+	  }
 	}
+  }
 
-	return \@parseResult;
+  return \@rss;
 }
