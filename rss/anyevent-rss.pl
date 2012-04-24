@@ -6,6 +6,9 @@ use warnings;
 use Smart::Comments;
 
 use XML::OPML;
+use XML::Simple;
+
+use AnyEvent;
 use AnyEvent::HTTP;
 
 my $opml_file = shift;
@@ -21,27 +24,51 @@ foreach my $item ( @$opml_data ) {
   push @rss_urls, @$rss_items;
 }
 
-my $method = 'GET';
+my $cv = AnyEvent->condvar(
+   cb => sub {
+	 warn "done";
+   },
+);
+
+my $result;
+$cv->begin( sub { shift->send( $result )} );
 
 foreach my $rss_task ( @rss_urls ) {
+  $cv->begin;
+  my $request;
   my $request_url = $rss_task->{xmlUrl};
-  print "Get $request_url\n";
-  my $reqs = http_request( $method => $request_url, sub {
-				  my ($data, $hdr) = @_;
-				  print $hdr->as_string, "\n";
-				}
-			  );
-  undef $reqs;
+  $request = http_request(
+	GET        => $request_url,
+	timeout    => 10,
+	sub {
+	  my ($body, $hdr) = @_;
+	  if ( $hdr->{Status} =~ /^2/ ) {
+		my $data;
+		eval {
+		  $data = XMLin( $body );
+		  };
+		if ( $@ ) {
+		  print $@;
+		}
+		else {
+		  ### $data
+		}
+	  }
+	  else {
+	   ### 48: $hdr->{Status}, $hdr->{Reason}
+	  }
+
+	  undef $request;
+	  $cv->end;
+	}
+  );
 }
 
-sub handler {
-  my ($data, $hdr) = @_;
-  if ( $hdr->{Status} =~ /^2/ ) {
-	print "OK!\n";
-  }
-  else {
-   print "Not OK: $hdr->{Status}!\n";
-  }
+$cv->end;
+warn "End of loop.\n";
+my $foo = $cv->recv;
+if ( defined $foo ) {
+  print foreach @$foo;
 }
 
 sub usage {
