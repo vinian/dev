@@ -33,29 +33,22 @@ my $cv = AnyEvent->condvar(
 my $result;
 $cv->begin( sub { shift->send( $result )} );
 
+print "<html>\n<body>\n";
 foreach my $rss_task ( @rss_urls ) {
   $cv->begin;
   my $request;
   my $request_url = $rss_task->{xmlUrl};
+
   $request = http_request(
 	GET        => $request_url,
-	timeout    => 10,
+	timeout    => 5,
 	sub {
 	  my ($body, $hdr) = @_;
 	  if ( $hdr->{Status} =~ /^2/ ) {
-		my $data;
-		eval {
-		  $data = XMLin( $body );
-		  };
-		if ( $@ ) {
-		  print $@;
-		}
-		else {
-		  ### $data
-		}
+		push @$result, $body;
 	  }
 	  else {
-	   ### 48: $hdr->{Status}, $hdr->{Reason}
+		### 50: $hdr->{Reason}
 	  }
 
 	  undef $request;
@@ -68,9 +61,22 @@ $cv->end;
 warn "End of loop.\n";
 my $foo = $cv->recv;
 if ( defined $foo ) {
-  print foreach @$foo;
+  foreach my $item ( @$foo ) {
+	my $data = eval {
+	  XMLin( $item );
+	};
+
+	if ( $@ ) {
+	}
+	else {
+	  foreach my $got_rss ( @{$data->{channel}{item}}) {
+		print "<a href=$got_rss->{link}>$got_rss->{title}</a><br>\n";
+	  }
+	}
+  }
 }
 
+print "</body>\n</html>";
 sub usage {
   print "Usage:\n$0 ompl-file\n";
   exit 1;

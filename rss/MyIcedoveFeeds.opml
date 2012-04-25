@@ -1,10 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
-  <head>
-    <title>导出 Icedove OPML</title>
-    <dateCreated>Sun, 20 Nov 2011 16:45:23 GMT</dateCreated>
-  </head>
-  <body>
-    <outline title="reddit.com: what's new online" text="reddit.com: what's new online" type="rss" version="RSS" xmlUrl="http://feedex.net/feed/www.reddit.com/.rss" htmlUrl="http://www.reddit.com/"/>
-    <outline title="Newest perlmonks questions" text="Newest perlmonks questions" type="rss" version="RSS" xmlUrl="http://www.peeron.com/tickers/pm.xml" htmlUrl="http://perlmonks.org"/>
-  </body>
+    <head>
+        <title>Hua subscriptions in Google Reader</title>
+    </head>
+    <body>
+        <outline text="Edge.org" title="Edge.org" type="rss"
+            xmlUrl="http://edge.org/feeds/" htmlUrl="http://edge.org/feeds"/>
+        <outline text="Head First Labs" title="Head First Labs"
+            type="rss"
+            xmlUrl="http://feeds.oreilly.com/oreilly/headfirstlabs" htmlUrl="http://blogs.oreilly.com/headfirst/"/>
+        <outline text="MIT OpenCourseWare: New Archived Courses"
+            title="MIT OpenCourseWare: New Archived Courses" type="rss"
+            xmlUrl="http://feeds.pheedo.com/OcwWeb/rss/new/mit-newarchivedcourses" htmlUrl="http://ocw.mit.edu/courses/archived-courses"/>
+        <outline text="Mukki" title="Mukki" type="rss"
+            xmlUrl="http://mukki.org/feed" htmlUrl="http://mukki.org"/>
+        <outline text="Not this..." title="Not this..." type="rss"
+            xmlUrl="http://blog.timbunce.org/feed/" htmlUrl="http://blog.timbunce.org"/>
+        <outline text="Not this..." title="Not this..." type="rss"
+            xmlUrl="http://feeds.feedburner.com/NotThis" htmlUrl="http://blog.timbunce.org"/>
+        <outline text="Premium Pixels" title="Premium Pixels" type="rss"
+            xmlUrl="http://feeds.feedburner.com/premiumpixels" htmlUrl="http://www.premiumpixels.com"/>
+        <outline text="Red Mercury Labs" title="Red Mercury Labs"
+            type="rss" xmlUrl="http://www.red-mercury.com/blog/feed/" htmlUrl="http://www.red-mercury.com/blog"/>
+        <outline
+            text="The Roxor | Design blog for resources and inspiration"
+            title="The Roxor | Design blog for resources and inspiration"
+            type="rss"
+            xmlUrl="http://feeds.feedburner.com/TheRoxorDesignBlog" htmlUrl="http://theroxor.com"/>
+        <outline text="UrFix's  Blog" title="UrFix's  Blog" type="rss"
+            xmlUrl="http://blog.urfix.com/feed/" htmlUrl="http://blog.urfix.com"/>
+        <outline text="七彩英语" title="七彩英语" type="rss"
+            xmlUrl="http://www.qcenglish.com/feed.xml" htmlUrl="http://www.qcenglish.com"/>
+        <outline text="搜索研发部官方博客" title="搜索研发部官方博客" type="rss"
+            xmlUrl="http://stblog.baidu-tech.com/?feed=rss2" htmlUrl="http://stblog.baidu-tech.com"/>
+        <outline text="淘宝核心系统团队博客" title="淘宝核心系统团队博客" type="rss"
+            xmlUrl="http://rdc.taobao.com/blog/cs/?feed=rss2" htmlUrl="http://rdc.taobao.com/blog/cs"/>
+        <outline text="皮皮书屋" title="皮皮书屋" type="rss"
+            xmlUrl="http://www.ppurl.com/feed" htmlUrl="http://www.ppurl.com"/>
+        <outline text="识丁工作室" title="识丁工作室" type="rss"
+            xmlUrl="http://liudongdong.com/rss.asp" htmlUrl="http://www.liudongdong.com"/>
+        <outline text="译言-每日精品译文推荐" title="译言-每日精品译文推荐" type="rss"
+            xmlUrl="http://feed.feedsky.com/yeeyan" htmlUrl="http://www.yeeyan.org"/>
+        <outline text="译言-电脑/网络/数码科技" title="译言-电脑/网络/数码科技" type="rss"
+            xmlUrl="http://feed.feedsky.com/yeeyan-tech" htmlUrl="http://www.yeeyan.org"/>
+        <outline text="译言-社会/文化/法律" title="译言-社会/文化/法律" type="rss"
+            xmlUrl="http://feed.feedsky.com/yeeyan-culture" htmlUrl="http://www.yeeyan.org"/>
+        <outline text="译言精选-摘要" title="译言精选-摘要" type="rss"
+            xmlUrl="http://feed.feedsky.com/yeeyan-select" htmlUrl="http://select.yeeyan.org"/>
+        <outline text="阳志平的随笔" title="阳志平的随笔" type="rss"
+            xmlUrl="http://www.yangzhiping.com/feed" htmlUrl="http://www.yangzhiping.com/"/>
+        <outline title="新闻" text="新闻">
+            <outline text="BBC | 国际新闻" title="BBC | 国际新闻" type="rss"
+                xmlUrl="http://feeds.feedburner.com/BBC/World" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=aGhBFJR_3hGlGkb_axVJvg"/>
+            <outline text="CNN.com" title="CNN.com" type="rss"
+                xmlUrl="http://feeds.feedburner.com/cnnfullview" htmlUrl="http://www.cnn.com/?eref=rss_topstories"/>
+            <outline text="FT中文网 - 今日焦点" title="FT中文网 - 今日焦点" type="rss"
+                xmlUrl="http://feeds.feedburner.com/FTFocus" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=976fc4a237ff6a005af092a7ecf0a0c1"/>
+            <outline text="FT中文网 - 读者有话说" title="FT中文网 - 读者有话说"
+                type="rss" xmlUrl="http://www.ftchinese.com/rss/letter" htmlUrl="http://www.ftchinese.com/"/>
+            <outline text="FT中文网-十大热门文章" title="FT中文网-十大热门文章" type="rss"
+                xmlUrl="http://feeds.feedburner.com/FTHot" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=a2d1040da7f695556cc3fe7be7bfc3f1"/>
+            <outline text="FT中文网_英国《金融时报》(Financial Times)"
+                title="FT中文网_英国《金融时报》(Financial Times)" type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/feed" htmlUrl="http://www.ftchinese.com/"/>
+            <outline text="FT中文网专栏_《2011:中国纪事》"
+                title="FT中文网专栏_《2011:中国纪事》" type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000007" htmlUrl="http://www.ftchinese.com/column/007000007"/>
+            <outline text="FT中文网专栏_《中国公司观察》" title="FT中文网专栏_《中国公司观察》"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000008" htmlUrl="http://www.ftchinese.com/column/007000008"/>
+            <outline text="FT中文网专栏_《智库》" title="FT中文网专栏_《智库》" type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000027" htmlUrl="http://www.ftchinese.com/column/007000027"/>
+            <outline text="FT中文网专栏_《朝九晚五》" title="FT中文网专栏_《朝九晚五》"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000002" htmlUrl="http://www.ftchinese.com/column/007000002"/>
+            <outline text="FT中文网专栏_《琐碎的冲突》" title="FT中文网专栏_《琐碎的冲突》"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000019" htmlUrl="http://www.ftchinese.com/column/007000019"/>
+            <outline text="FT中文网专栏_《第一时间解读》" title="FT中文网专栏_《第一时间解读》"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000005" htmlUrl="http://www.ftchinese.com/column/007000005"/>
+            <outline text="FT中文网专栏_《网络江湖》" title="FT中文网专栏_《网络江湖》"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000028" htmlUrl="http://www.ftchinese.com/column/007000028"/>
+            <outline text="FT中文网专栏_《职言不讳》" title="FT中文网专栏_《职言不讳》"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000011" htmlUrl="http://www.ftchinese.com/column/007000011"/>
+            <outline text="FT中文网专栏_《远观中国》" title="FT中文网专栏_《远观中国》"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000004" htmlUrl="http://www.ftchinese.com/column/007000004"/>
+            <outline text="FT中文网专栏_《钱体育》" title="FT中文网专栏_《钱体育》"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000001" htmlUrl="http://www.ftchinese.com/column/007000001"/>
+            <outline text="FT中文网专栏_马丁·沃尔夫" title="FT中文网专栏_马丁·沃尔夫"
+                type="rss"
+                xmlUrl="http://www.ftchinese.com/rss/column/007000012" htmlUrl="http://www.ftchinese.com/column/007000012"/>
+            <outline text="Top Stories - Google News"
+                title="Top Stories - Google News" type="rss"
+                xmlUrl="http://news.google.com.hk/news?pz=1&amp;cf=all&amp;ned=us&amp;hl=en&amp;output=rss" htmlUrl="http://news.google.com.hk/news?pz=1&amp;ned=us&amp;hl=en"/>
+            <outline text="Top Stories - Google News"
+                title="Top Stories - Google News" type="rss"
+                xmlUrl="http://news.google.com/news?pz=1&amp;cf=all&amp;ned=us&amp;hl=en&amp;topic=h&amp;num=3&amp;output=rss" htmlUrl="http://news.google.com/news?pz=1&amp;ned=us&amp;hl=en&amp;topic=h&amp;num=3"/>
+            <outline text="南方周末-热点新闻" title="南方周末-热点新闻" type="rss"
+                xmlUrl="http://feeds.feedburner.com/nfzm/hotnews" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=31a26b68cb3b67adf0004302894afdcb"/>
+            <outline text="所有新闻--华尔街日报" title="所有新闻--华尔街日报" type="rss"
+                xmlUrl="http://chinese.wsj.com/gb/rssall.xml" htmlUrl="http://cn.wsj.com/gb/archive.asp"/>
+            <outline text="特写--华尔街日报" title="特写--华尔街日报" type="rss"
+                xmlUrl="http://chinese.wsj.com/gb/rss02.xml" htmlUrl="http://cn.wsj.com/gb/column.asp"/>
+            <outline text="特写--华尔街日报" title="特写--华尔街日报" type="rss"
+                xmlUrl="http://cn.wsj.com.feedsportal.com/c/33121/f/538761/index.rss" htmlUrl="http://cn.wsj.com/gb/column.asp"/>
+            <outline text="科技--华尔街日报" title="科技--华尔街日报" type="rss"
+                xmlUrl="http://chinese.wsj.com/gb/rsstech.xml" htmlUrl="http://cn.wsj.com/gb/tech.asp"/>
+            <outline text="要闻--华尔街日报" title="要闻--华尔街日报" type="rss"
+                xmlUrl="http://chinese.wsj.com/gb/rss01.xml" htmlUrl="http://cn.wsj.com"/>
+            <outline text="路透: 专栏" title="路透: 专栏" type="rss"
+                xmlUrl="http://feeds.feedburner.com/reuters/columnistNews" htmlUrl="http://cn.reuters.com"/>
+            <outline text="路透: 中国财经" title="路透: 中国财经" type="rss"
+                xmlUrl="http://cn.reuters.com/rssFeed/chinaNews" htmlUrl="http://cn.reuters.com"/>
+            <outline text="路透: 深度分析" title="路透: 深度分析" type="rss"
+                xmlUrl="http://feeds.feedburner.com/reuters/cnanalytics" htmlUrl="http://cn.reuters.com"/>
+        </outline>
+        <outline title="film_music_tv" text="film_music_tv">
+            <outline text="CHDTV" title="CHDTV" type="rss"
+                xmlUrl="http://chdbits.org/torrentrss.php?rows=50&amp;search=HDTV%20CHDTV%20720" htmlUrl="http://chdbits.org"/>
+            <outline text="CtrlHD-ESiR" title="CtrlHD-ESiR" type="rss"
+                xmlUrl="http://chdbits.org/torrentrss.php?rows=50&amp;search=ESIR%20esir%20Esir%20ESiR%20CtrlHD%20Ctrlhd%20ctrlhd&amp;search_mode=1" htmlUrl="http://chdbits.org"/>
+            <outline text="CTU" title="CTU" type="rss"
+                xmlUrl="http://chdbits.org/torrentrss.php?rows=50&amp;search=720%20CTU" htmlUrl="http://chdbits.org"/>
+            <outline text="HDChina Torrents" title="HDChina Torrents"
+                type="rss"
+                xmlUrl="http://hdchina.org/rss.php?c9=1&amp;c25=1&amp;c13=1&amp;c5=1&amp;c18=1&amp;c27=1" htmlUrl="http://hdchina.org/"/>
+            <outline text="Movie" title="Movie" type="rss"
+                xmlUrl="http://chdbits.org/torrentrss.php?rows=50&amp;search=720%20CHD%20BluRay" htmlUrl="http://chdbits.org"/>
+            <outline text="music" title="music" type="rss"
+                xmlUrl="http://chdbits.org/torrentrss.php?rows=50&amp;search=APE%20ape%20flac%20FLAC%20WAV%20wav&amp;search_mode=1" htmlUrl="http://chdbits.org"/>
+            <outline text="PDAHD" title="PDAHD" type="rss"
+                xmlUrl="http://chdbits.org/torrentrss.php?rows=50&amp;search=PDAHD%20pdahd&amp;search_mode=1" htmlUrl="http://chdbits.org"/>
+            <outline text="StBOX" title="StBOX" type="rss"
+                xmlUrl="http://chdbits.org/torrentrss.php?rows=50&amp;search=StBOX%20720" htmlUrl="http://chdbits.org"/>
+            <outline text="TLFMINISD" title="TLFMINISD" type="rss"
+                xmlUrl="http://www.tlfminisd.com/feed" htmlUrl="http://www.tlfminisd.com"/>
+            <outline text="TTG" title="TTG" type="rss"
+                xmlUrl="http://ttg.im/putrssde.php?par=dnZ2NTIsNjksNzYsOTAsODIsODMsNTcsNTksOTEsODF6eg==" htmlUrl="http://ttg.im/"/>
+            <outline text="VinMusic 唯音乐" title="VinMusic 唯音乐" type="rss"
+                xmlUrl="http://feed.feedsky.com/music-it" htmlUrl="http://vinmusic.com"/>
+        </outline>
+        <outline title="google" text="google">
+            <outline text="Google Plus Headlines"
+                title="Google Plus Headlines" type="rss"
+                xmlUrl="http://plusheadlines.com/feed/rss/" htmlUrl="http://plusheadlines.com"/>
+            <outline
+                text="Google 黑板报 - Google （谷歌）中国的博客网志，走近我们的产品、技术和文化"
+                title="Google 黑板报 - Google （谷歌）中国的博客网志，走近我们的产品、技术和文化"
+                type="rss" xmlUrl="http://googlechinablog.com/atom.xml" htmlUrl="http://googlechinablog.blogspot.com/"/>
+            <outline text="The Official Google Blog"
+                title="The Official Google Blog" type="rss"
+                xmlUrl="http://googleblog.blogspot.com/atom.xml" htmlUrl="http://googleblog.blogspot.com/"/>
+            <outline text="谷奥——探寻谷歌的奥秘" title="谷奥——探寻谷歌的奥秘" type="rss"
+                xmlUrl="http://feed.google.org.cn/" htmlUrl="http://www.guao.hk"/>
+        </outline>
+        <outline title="new-web" text="new-web">
+            <outline
+                text="Search Engine Land: News About Search Engines &amp; Search Marketing"
+                title="Search Engine Land: News About Search Engines &amp; Search Marketing"
+                type="rss"
+                xmlUrl="http://feeds.searchengineland.com/searchengineland" htmlUrl="http://searchengineland.com"/>
+            <outline text="Stack Exchange Site Directory"
+                title="Stack Exchange Site Directory" type="rss"
+                xmlUrl="http://stackexchange.com/feeds/sites" htmlUrl="http://stackexchange.com/sites"/>
+        </outline>
+        <outline title="咨询" text="咨询">
+            <outline text="digg.com: Top News"
+                title="digg.com: Top News" type="rss"
+                xmlUrl="http://digg.com/news.rss" htmlUrl="http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fdigg.com%2Fnews.rss"/>
+            <outline text="Oh! My Media" title="Oh! My Media" type="rss"
+                xmlUrl="http://feed.feedsky.com/ohmymedia" htmlUrl="http://ohmymedia.com"/>
+            <outline text="TechCrunch" title="TechCrunch" type="rss"
+                xmlUrl="http://feeds.feedburner.com/TechCrunch" htmlUrl="http://techcrunch.com"/>
+            <outline text="TorrentFreak" title="TorrentFreak" type="rss"
+                xmlUrl="http://feed.torrentfreak.com/Torrentfreak/" htmlUrl="http://torrentfreak.com"/>
+            <outline text="TorrentFreak » Bits"
+                title="TorrentFreak » Bits" type="rss"
+                xmlUrl="http://feeds.feedburner.com/TorrentfreakBits" htmlUrl="http://torrentfreak.com"/>
+        </outline>
+        <outline title="command-line" text="command-line">
+            <outline text="All commands" title="All commands" type="rss"
+                xmlUrl="http://feeds2.feedburner.com/Command-line-fu" htmlUrl="http://www.commandlinefu.com/commands/browse/rss"/>
+        </outline>
+        <outline title="good" text="good">
+            <outline text="DBA notes" title="DBA notes" type="rss"
+                xmlUrl="http://feeds.feedburner.com/dbanotes" htmlUrl="http://www.dbanotes.net/"/>
+            <outline text="good coders code, great reuse"
+                title="good coders code, great reuse" type="rss"
+                xmlUrl="http://feeds2.feedburner.com/catonmat" htmlUrl="http://www.catonmat.net"/>
+            <outline text="It Talks--魏武挥的博客" title="It Talks--魏武挥的博客"
+                type="rss" xmlUrl="http://weiwuhui.com/feed/" htmlUrl="http://weiwuhui.com"/>
+            <outline text="Lamp Blog" title="Lamp Blog" type="rss"
+                xmlUrl="http://www.lampblog.net/feed/" htmlUrl="http://www.lampblog.net"/>
+            <outline text="Linus' blog" title="Linus' blog" type="rss"
+                xmlUrl="http://torvalds-family.blogspot.com/feeds/posts/default" htmlUrl="http://torvalds-family.blogspot.com/"/>
+            <outline text="LzTopic - 励志人生" title="LzTopic - 励志人生"
+                type="rss"
+                xmlUrl="http://mrss.dokoda.jp/a/http/feed.lztopic.com/" htmlUrl="http://www.lztopic.com"/>
+            <outline
+                text="Makes Me Think - MMT - Today's Thought-Provoking Life Stories"
+                title="Makes Me Think - MMT - Today's Thought-Provoking Life Stories"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/MakesMeThink" htmlUrl="http://makesmethink.com"/>
+            <outline text="Things Of Interest"
+                title="Things Of Interest" type="rss"
+                xmlUrl="http://qntm.org/rss.php" htmlUrl="http://qntm.org/"/>
+            <outline text="Think Vitamin" title="Think Vitamin"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/vitaminmasterfeed/" htmlUrl="http://thinkvitamin.com"/>
+            <outline text="《商业价值》杂志" title="《商业价值》杂志" type="rss"
+                xmlUrl="http://feed.feedsky.com/businessvalue" htmlUrl="http://content.businessvalue.com.cn"/>
+            <outline text="互联网的那点事..." title="互联网的那点事..." type="rss"
+                xmlUrl="http://feed.feedsky.com/alibuybuy" htmlUrl="http://www.alibuybuy.com"/>
+            <outline text="伯乐在线" title="伯乐在线" type="rss"
+                xmlUrl="http://www.jobbole.com/ajax.php?do=rss&amp;type=newcontent&amp;sectionid=1&amp;days=120&amp;count=20" htmlUrl="http://www.jobbole.com"/>
+            <outline text="伯乐在线" title="伯乐在线" type="rss"
+                xmlUrl="http://www.jobbole.com/external.php?type=RSS2" htmlUrl="http://www.jobbole.com/"/>
+            <outline text="伯乐在线 -博客" title="伯乐在线 -博客" type="rss"
+                xmlUrl="http://www.jobbole.com/blog_external.php?type=RSS2" htmlUrl="http://www.jobbole.com/blog.php"/>
+            <outline text="天涯海阁" title="天涯海阁" type="rss"
+                xmlUrl="http://feed.web20share.com/" htmlUrl="http://www.web20share.com"/>
+            <outline text="对牛乱弹琴 | Playin' with IT"
+                title="对牛乱弹琴 | Playin' with IT" type="rss"
+                xmlUrl="http://feed.keso.cn/PlayinWithIT" htmlUrl="http://blog.donews.com/keso"/>
+            <outline text="扶凯" title="扶凯" type="rss"
+                xmlUrl="http://www.php-oa.com/feed" htmlUrl="http://www.php-oa.com"/>
+            <outline text="月光博客" title="月光博客" type="rss"
+                xmlUrl="http://feed.williamlong.info/" htmlUrl="http://www.williamlong.info/"/>
+            <outline text="知乎的博客" title="知乎的博客" type="rss"
+                xmlUrl="http://blog.zhihu.com/feed/" htmlUrl="http://blog.zhihu.com"/>
+            <outline text="荷包蛋博客" title="荷包蛋博客" type="rss"
+                xmlUrl="http://www.hebaodans.com/feed" htmlUrl="http://www.hebaodans.com"/>
+            <outline text="酷壳 - CoolShell.cn" title="酷壳 - CoolShell.cn"
+                type="rss" xmlUrl="http://coolshell.cn/?feed=rss2" htmlUrl="http://coolshell.cn"/>
+            <outline text="阮一峰的网络日志" title="阮一峰的网络日志" type="rss"
+                xmlUrl="http://feeds.feedburner.com/ruanyifeng/" htmlUrl="http://www.ruanyifeng.com/blog/"/>
+        </outline>
+        <outline title="投资" text="投资">
+            <outline text="Paul Graham: Essays"
+                title="Paul Graham: Essays" type="rss"
+                xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" htmlUrl="http://www.paulgraham.com/"/>
+            <outline text="The Reformed Broker"
+                title="The Reformed Broker" type="rss"
+                xmlUrl="http://www.thereformedbroker.com/feed/atom/" htmlUrl="http://www.thereformedbroker.com/"/>
+        </outline>
+        <outline title="Perl" text="Perl">
+            <outline text="# where we turn Perl inside out"
+                title="# where we turn Perl inside out" type="rss"
+                xmlUrl="http://niceperl.blogspot.com/feeds/posts/default" htmlUrl="http://niceperl.blogspot.com/"/>
+            <outline text="About.com Perl" title="About.com Perl"
+                type="rss"
+                xmlUrl="http://z.about.com/6/g/perl/b/rss2.xml?r=9F" htmlUrl="http://perl.about.com/?r=9F"/>
+            <outline text="AnnoCPAN Recent Notes"
+                title="AnnoCPAN Recent Notes" type="rss"
+                xmlUrl="http://www.annocpan.org/recent.rss" htmlUrl="http://annocpan.org"/>
+            <outline text="Blog of Leonid Mamchenkov"
+                title="Blog of Leonid Mamchenkov" type="rss"
+                xmlUrl="http://mamchenkov.net/wordpress/feed/" htmlUrl="http://mamchenkov.net/wordpress"/>
+            <outline text="blogs.perl.org" title="blogs.perl.org"
+                type="rss" xmlUrl="http://blogs.perl.org/atom.xml" htmlUrl="http://blogs.perl.org/"/>
+            <outline text="bulknews.typepad.com"
+                title="bulknews.typepad.com" type="rss"
+                xmlUrl="http://feeds.feedburner.com/typepad/blog" htmlUrl="http://bulknews.typepad.com/blog/"/>
+            <outline text="CPAN Forum" title="CPAN Forum" type="rss"
+                xmlUrl="http://cpanforum.com/rss/all" htmlUrl="http://cpanforum.com/"/>
+            <outline text="CPAN Testers Blog" title="CPAN Testers Blog"
+                type="rss"
+                xmlUrl="http://blog.cpantesters.org/rss/rss-2.0.xml" htmlUrl="http://blog.cpantesters.org"/>
+            <outline text="Damien Learns Perl"
+                title="Damien Learns Perl" type="rss"
+                xmlUrl="http://damienlearnsperl.blogspot.com/feeds/posts/default" htmlUrl="http://damienlearnsperl.blogspot.com/"/>
+            <outline text="Dave's Articles and Stuff"
+                title="Dave's Articles and Stuff" type="rss"
+                xmlUrl="http://dave.org.uk/feeds/long.xml" htmlUrl="http://dave.org.uk/feeds/"/>
+            <outline text="Donnie Knows - Perl"
+                title="Donnie Knows - Perl" type="rss"
+                xmlUrl="http://donnieknows.com/taxonomy/term/14/0/feed" htmlUrl="http://donnieknows.com/taxonomy/term/14/0"/>
+            <outline text="freshmeat.net Search for PERL"
+                title="freshmeat.net Search for PERL" type="rss"
+                xmlUrl="http://freshmeat.net/search?format=atom&amp;q=PERL" htmlUrl="http://freecode.com/search?q=PERL"/>
+            <outline text="How Can I Explain This?"
+                title="How Can I Explain This?" type="rss"
+                xmlUrl="http://howcaniexplainthis.blogspot.com/feeds/posts/default" htmlUrl="http://howcaniexplainthis.blogspot.com/"/>
+            <outline text="Modern Perl" title="Modern Perl" type="rss"
+                xmlUrl="http://jjnapiorkowski.typepad.com/modern-perl/atom.xml" htmlUrl="http://jjnapiorkowski.typepad.com/modern-perl/"/>
+            <outline text="Modern Perl Books, a Modern Perl Blog"
+                title="Modern Perl Books, a Modern Perl Blog" type="rss"
+                xmlUrl="http://www.modernperlbooks.com/mt/atom.xml" htmlUrl="http://www.modernperlbooks.com/mt/"/>
+            <outline text="Newest perlmonks questions"
+                title="Newest perlmonks questions" type="rss"
+                xmlUrl="http://www.peeron.com/tickers/pm.xml" htmlUrl="http://perlmonks.org"/>
+            <outline text="NPEREZ's Perl Musings"
+                title="NPEREZ's Perl Musings" type="rss"
+                xmlUrl="http://perl-yarg.blogspot.com/feeds/posts/default" htmlUrl="http://perl-yarg.blogspot.com/"/>
+            <outline text="PAL-Blog" title="PAL-Blog" type="rss"
+                xmlUrl="http://www.pal-blog.de/feed/" htmlUrl="http://www.pal-blog.de"/>
+            <outline text="Perl" title="Perl" type="rss"
+                xmlUrl="http://feeds.oreilly.com/oreilly/perl" htmlUrl="http://oreilly.com/perl/"/>
+            <outline text="Perl Hacks" title="Perl Hacks" type="rss"
+                xmlUrl="http://perlhacks.com/feed/" htmlUrl="http://perlhacks.com"/>
+            <outline text="Perl News" title="Perl News" type="rss"
+                xmlUrl="http://perlnews.org/feed/" htmlUrl="http://perlnews.org"/>
+            <outline text="Perl-Uwe.com" title="Perl-Uwe.com" type="rss"
+                xmlUrl="http://www.perl-uwe.com/feeds/posts/default" htmlUrl="http://www.perl-uwe.com/"/>
+            <outline text="Perl.com" title="Perl.com" type="rss"
+                xmlUrl="http://www.perl.com/pub/atom.xml" htmlUrl="http://www.perl.com/pub/"/>
+            <outline text="PerlMonks - Newest Nodes"
+                title="PerlMonks - Newest Nodes" type="rss"
+                xmlUrl="http://www.perlmonks.org/?node_id=30175;xmlstyle=rss;types=poem" htmlUrl="http://perlmonks.org/index.pl?node_id=30175"/>
+            <outline text="Perlsphere" title="Perlsphere" type="rss"
+                xmlUrl="http://perlsphere.net/atom.xml" htmlUrl="http://perlsphere.net/"/>
+            <outline text="Planet Perl Six" title="Planet Perl Six"
+                type="rss" xmlUrl="http://planetsix.perl.org/atom.xml" htmlUrl="http://planetsix.perlfoundation.org"/>
+            <outline text="POE Wiki Major Changes"
+                title="POE Wiki Major Changes" type="rss"
+                xmlUrl="http://poe.perl.org/wiki-major.rss" htmlUrl="http://poe.perl.org/"/>
+            <outline text="Pugs" title="Pugs" type="rss"
+                xmlUrl="http://pugs.blogs.com/pugs/atom.xml" htmlUrl="http://pugs.blogs.com/pugs/"/>
+            <outline text="Robin Smidsrød" title="Robin Smidsrød"
+                type="rss"
+                xmlUrl="http://blog.robin.smidsrod.no/?tempskin=_rss2" htmlUrl="http://blog.robin.smidsrod.no/"/>
+            <outline text="search.cpan.org" title="search.cpan.org"
+                type="rss" xmlUrl="http://search.cpan.org/uploads.rdf" htmlUrl="http://search.cpan.org/"/>
+            <outline text="Sukria.net" title="Sukria.net" type="rss"
+                xmlUrl="http://www.sukria.net/fr/feed/" htmlUrl="http://www.sukria.net/fr"/>
+            <outline text="The Making of MarkMail"
+                title="The Making of MarkMail" type="rss"
+                xmlUrl="http://feeds.feedburner.com/MarkMail" htmlUrl="http://markmail.blogspot.com/"/>
+            <outline text="The Perl Foundation"
+                title="The Perl Foundation" type="rss"
+                xmlUrl="http://news.perlfoundation.org/rss.xml" htmlUrl="http://news.perlfoundation.org/"/>
+            <outline text="The Room" title="The Room" type="rss"
+                xmlUrl="http://chris.prather.org/rss.xml" htmlUrl="http://chris.prather.org/rss.xml"/>
+            <outline text="(title unknown)" title="(title unknown)"
+                type="rss"
+                xmlUrl="http://ironman.enlightenedperl.org/?feed=atom" htmlUrl="http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fironman.enlightenedperl.org%2F%3Ffeed%3Datom"/>
+            <outline text="Under the palm tree"
+                title="Under the palm tree" type="rss"
+                xmlUrl="http://desert-island.me.uk/~castaway/blog/" htmlUrl="http://desert-island.me.uk/~castaway/blog"/>
+            <outline text="鳳" title="鳳" type="rss"
+                xmlUrl="http://pugs.blogs.com/audrey/atom.xml" htmlUrl="http://pugs.blogs.com/audrey/"/>
+        </outline>
+        <outline title="InfoGraphic" text="InfoGraphic">
+            <outline text="Alltop RSS" title="Alltop RSS" type="rss"
+                xmlUrl="http://infographics.alltop.com/rss/" htmlUrl="http://infographics.alltop.com"/>
+            <outline text="Cool Infographics" title="Cool Infographics"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/CoolInfographics" htmlUrl="http://www.coolinfographics.com/blog/"/>
+            <outline text="InfoGraphic collected by 魏武挥"
+                title="InfoGraphic collected by 魏武挥" type="rss"
+                xmlUrl="http://feed.feedsky.com/weiInfoGraphic" htmlUrl="http://infographic.weiwuhui.com"/>
+            <outline text="Infographicworld" title="Infographicworld"
+                type="rss" xmlUrl="http://infographicworld.com/feed/" htmlUrl="http://infographicworld.com"/>
+            <outline
+                text="Information Graphics Gallery | Info Graphics Inspiration | Style &amp; Flow"
+                title="Information Graphics Gallery | Info Graphics Inspiration | Style &amp; Flow"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/styleandflow" htmlUrl="http://www.styleandflow.com"/>
+            <outline text="Visual News" title="Visual News" type="rss"
+                xmlUrl="http://feeds.feedburner.com/TheVisualNews" htmlUrl="http://www.visualnews.com"/>
+            <outline text="visualcomplexity.com"
+                title="visualcomplexity.com" type="rss"
+                xmlUrl="http://feedproxy.google.com/visualcomplexity" htmlUrl="http://www.visualcomplexity.com"/>
+            <outline text="VizWorld.com" title="VizWorld.com" type="rss"
+                xmlUrl="http://feeds.vizworld.com/Vizworldcom" htmlUrl="http://www.vizworld.com"/>
+        </outline>
+        <outline title="Linux" text="Linux">
+            <outline text="a non-geek's linux notes"
+                title="a non-geek's linux notes" type="rss"
+                xmlUrl="http://alinuxblog.wordpress.com/feed/" htmlUrl="https://alinuxblog.wordpress.com"/>
+            <outline text="All about Linux" title="All about Linux"
+                type="rss"
+                xmlUrl="http://www.blogger.com/feeds/7693232/posts/default/" htmlUrl="http://www.aboutlinux.info/"/>
+            <outline text="All about Linux" title="All about Linux"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/AllAboutLinux" htmlUrl="http://www.aboutlinux.info/"/>
+            <outline text="Ars Technica - Open Ended"
+                title="Ars Technica - Open Ended" type="rss"
+                xmlUrl="http://feeds.arstechnica.com/arstechnica/open-source" htmlUrl="http://arstechnica.com/open-source/"/>
+            <outline text="BASH Cures Cancer" title="BASH Cures Cancer"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/BashCuresCancer/" htmlUrl="http://bashcurescancer.com"/>
+            <outline text="Browse Blogs" title="Browse Blogs" type="rss"
+                xmlUrl="http://www.linuxfoundation.org/news-media/blogs/browse/rss.xml/" htmlUrl="http://www.linuxfoundation.org/news-media/blogs/browse-blogs"/>
+            <outline text="DistroWatch.com: Distributions"
+                title="DistroWatch.com: Distributions" type="rss"
+                xmlUrl="http://distrowatch.com/news/dw.xml" htmlUrl="http://distrowatch.com/"/>
+            <outline text="FreeBSD/Linux/Unix学习笔记"
+                title="FreeBSD/Linux/Unix学习笔记" type="rss"
+                xmlUrl="http://www.unixnotes.net/feed/" htmlUrl="http://www.unixnotes.net"/>
+            <outline text="fsckin w/ linux" title="fsckin w/ linux"
+                type="rss" xmlUrl="http://feeds.feedburner.com/Fsckin" htmlUrl="http://www.fsckin.com"/>
+            <outline
+                text="Linux Journal - The Original Magazine of the Linux Community"
+                title="Linux Journal - The Original Magazine of the Linux Community"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/linuxjournalcom?format=xml" htmlUrl="http://www.linuxjournal.com/"/>
+            <outline text="LinuxInsight" title="LinuxInsight" type="rss"
+                xmlUrl="http://feeds.linuxinsight.com/linuxportal" htmlUrl="http://www.linuxinsight.com"/>
+            <outline text="LinuxSecurity.com" title="LinuxSecurity.com"
+                type="rss"
+                xmlUrl="http://www.linuxsecurity.com/static-content/linuxsecurity_hybrid.rss" htmlUrl="http://www.linuxsecurity.com/"/>
+            <outline text="LinuxSecurity.com - Security Advisories"
+                title="LinuxSecurity.com - Security Advisories"
+                type="rss"
+                xmlUrl="http://www.linuxsecurity.com/static-content/debian.rss" htmlUrl="http://www.linuxsecurity.com/"/>
+            <outline text="LinuxTOY" title="LinuxTOY" type="rss"
+                xmlUrl="http://linuxtoy.org/feed" htmlUrl="http://linuxtoy.org"/>
+            <outline text="lkml.org" title="lkml.org" type="rss"
+                xmlUrl="https://lkml.org/rss.php" htmlUrl="http://lkml.org"/>
+            <outline text="LWN.net" title="LWN.net" type="rss"
+                xmlUrl="http://lwn.net/headlines/newrss" htmlUrl="http://lwn.net"/>
+            <outline text="Planet Arch Linux" title="Planet Arch Linux"
+                type="rss" xmlUrl="http://planet.archlinux.org/atom.xml" htmlUrl="http://planet.archlinux.org"/>
+            <outline text="Planet Debian" title="Planet Debian"
+                type="rss" xmlUrl="http://planet.debian.org/atom.xml" htmlUrl="http://planet.debian.org/"/>
+            <outline text="Planet Gentoo" title="Planet Gentoo"
+                type="rss" xmlUrl="http://planet.gentoo.org/rss20.xml" htmlUrl="http://planet.gentoo.org/"/>
+            <outline text="Refining Linux" title="Refining Linux"
+                type="rss"
+                xmlUrl="http://www.refining-linux.org/feeds/atom10.xml" htmlUrl="http://www.refining-linux.org/"/>
+            <outline text="Router的博客" title="Router的博客" type="rss"
+                xmlUrl="http://gaogaochao1.blog.163.com/rss/" htmlUrl="http://gaogaochao1.blog.163.com"/>
+            <outline text="The Linux Blog" title="The Linux Blog"
+                type="rss"
+                xmlUrl="http://feeds.feedburner.com/thelinuxblog/feed" htmlUrl="http://www.thelinuxblog.com"/>
+            <outline text="TY.LINUX狂笑轩" title="TY.LINUX狂笑轩" type="rss"
+                xmlUrl="http://blog.chinaunix.net/u/rss.php?id=40349/" htmlUrl="http://www.cublog.cn/u1/40349/"/>
+            <outline text="UbuntuHQ" title="UbuntuHQ" type="rss"
+                xmlUrl="http://www.ubuntuhq.com/uhqfeed" htmlUrl="http://www.ubuntuhq.com"/>
+            <outline text="平静如水" title="平静如水" type="rss"
+                xmlUrl="http://blog.chinaunix.net/u/rss.php?id=67750" htmlUrl="http://www.cublog.cn/u2/67750/"/>
+        </outline>
+        <outline title="project" text="project">
+            <outline text="freshmeat.net Releases"
+                title="freshmeat.net Releases" type="rss"
+                xmlUrl="http://freshmeat.net/?format=atom" htmlUrl="http://freecode.com"/>
+            <outline text="Private Feed for vinian"
+                title="Private Feed for vinian" type="rss"
+                xmlUrl="https://github.com/vinian.private.atom?token=dc39965389d0e2b72b0bdf883ef18df3" htmlUrl="https://github.com/vinian"/>
+        </outline>
+        <outline title="网络" text="网络">
+            <outline text="Mr. 6 - 趨勢．創業．網路．生活"
+                title="Mr. 6 - 趨勢．創業．網路．生活" type="rss"
+                xmlUrl="http://feeds.feedburner.com/mr6" htmlUrl="http://mr6.cc"/>
+            <outline text="reddit.com: what's new online"
+                title="reddit.com: what's new online" type="rss"
+                xmlUrl="http://feedex.net/feed/www.reddit.com/.rss" htmlUrl="http://www.reddit.com/"/>
+            <outline text="Solace In Random Lines"
+                title="Solace In Random Lines" type="rss"
+                xmlUrl="http://blog.akash.im/rss.xml" htmlUrl="http://blog.akash.im"/>
+            <outline text="Wangjianshuo's blog"
+                title="Wangjianshuo's blog" type="rss"
+                xmlUrl="http://home.wangjianshuo.com/index.xml" htmlUrl="http://home.wangjianshuo.com/"/>
+            <outline text="《程序员》杂志官网" title="《程序员》杂志官网" type="rss"
+                xmlUrl="http://feed.feedsky.com/programmer" htmlUrl="http://www.programmer.com.cn"/>
+        </outline>
+        <outline title="hack" text="hack">
+            <outline text="GeekPark 捕风捉影" title="GeekPark 捕风捉影"
+                type="rss" xmlUrl="http://feeds.geekpark.net/" htmlUrl="http://event.geekpark.net/"/>
+            <outline text="Slashdot" title="Slashdot" type="rss"
+                xmlUrl="http://rss.slashdot.org/Slashdot/slashdot" htmlUrl="http://slashdot.org/"/>
+            <outline text="Solidot" title="Solidot" type="rss"
+                xmlUrl="http://feeds.feedburner.com/solidot" htmlUrl="http://solidot.org/"/>
+            <outline text="Time to Hack" title="Time to Hack" type="rss"
+                xmlUrl="http://feeds.feedburner.com/blogspot/qFGe" htmlUrl="http://time2hack.blogspot.com/"/>
+        </outline>
+        <outline title="资料" text="资料">
+            <outline text="developerWorks 中国 :  Linux"
+                title="developerWorks 中国 :  Linux" type="rss"
+                xmlUrl="http://www.ibm.com/developerworks/cn/views/rss/customrssatom.jsp?zone_by=Linux&amp;amp%3Btype_by=Articles&amp;amp%3Btype_by=Tutorials&amp;amp%3Bsearch_by=&amp;amp%3Bday=1&amp;amp%3Bmonth=01&amp;amp%3Byear=2005&amp;amp%3Bmax_entries=20&amp;amp%3Bfeed_by=rss&amp;amp%3BisGUI=true&amp;amp%3BSubmit.x=34&amp;amp%3BSubmit.y=9" htmlUrl="http://www.ibm.com/developerworks/cn/"/>
+            <outline
+                text="IBM developerWorks 中国 : Linux : Articles,Tutorials"
+                title="IBM developerWorks 中国 : Linux : Articles,Tutorials"
+                type="rss"
+                xmlUrl="http://www.ibm.com/developerworks/cn/views/rss/customrssatom.jsp?zone_by=Linux&amp;type_by=Articles&amp;type_by=Tutorials&amp;search_by=&amp;day=1&amp;month=01&amp;year=2005&amp;max_entries=20&amp;feed_by=rss&amp;isGUI=true&amp;Submit.x=44&amp;Submit.y=10" htmlUrl="http://www.ibm.com/developerworks/cn/"/>
+        </outline>
+        <outline title="其它" text="其它">
+            <outline text="36氪" title="36氪" type="rss"
+                xmlUrl="http://www.36kr.com/feed/" htmlUrl="http://www.36kr.com"/>
+            <outline text="Android Phone Fans"
+                title="Android Phone Fans" type="rss"
+                xmlUrl="http://feeds2.feedburner.com/AndroidPhoneFans" htmlUrl="http://phandroid.com"/>
+            <outline text="Engadget 中国版" title="Engadget 中国版" type="rss"
+                xmlUrl="http://cn.engadget.com/rss.xml" htmlUrl="http://cn.engadget.com"/>
+            <outline text="feed/http://tech2ipo.com/feed"
+                title="feed/http://tech2ipo.com/feed" type="rss"
+                xmlUrl="http://tech2ipo.com/feed" htmlUrl="http://tech2ipo.com"/>
+            <outline text="FeedzShare 3天最热" title="FeedzShare 3天最热"
+                type="rss" xmlUrl="http://www.feedzshare.com/s/t/3/rss" htmlUrl="http://www.feedzshare.com/s/t/3"/>
+            <outline text="Harvard University Gazette"
+                title="Harvard University Gazette" type="rss"
+                xmlUrl="http://feeds.feedburner.com/HarvardGazetteCalendar" htmlUrl="http://news.harvard.edu/gazette/section/calendar/gazette-calendar/"/>
+            <outline text="iGFW" title="iGFW" type="rss"
+                xmlUrl="http://igfw.tk/feed" htmlUrl="http://igfw.net"/>
+            <outline text="leninlee" title="leninlee" type="rss"
+                xmlUrl="http://feeds.feedburner.com/leninlee" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=65addca05a2337617d0a4c245f9a3366"/>
+            <outline text="Matthew Garrett" title="Matthew Garrett"
+                type="rss"
+                xmlUrl="http://mjg59.livejournal.com/data/rss" htmlUrl="http://mjg59.livejournal.com/"/>
+            <outline
+                text="Mercurial commits to project ipv6-hosts on Google Code"
+                title="Mercurial commits to project ipv6-hosts on Google Code"
+                type="rss"
+                xmlUrl="http://code.google.com/feeds/p/ipv6-hosts/hgchanges/basic" htmlUrl="http://code.google.com/p/ipv6-hosts/source/list"/>
+            <outline text="mindmeters思维的乐趣" title="mindmeters思维的乐趣"
+                type="rss" xmlUrl="http://feeds.feedburner.com/mindm" htmlUrl="http://www.mindmeters.com"/>
+            <outline text="Pure Pleasure - Reborn (in English)"
+                title="Pure Pleasure - Reborn (in English)" type="rss"
+                xmlUrl="http://www.lixiaolai.com/index.php/feed" htmlUrl="http://www.lixiaolai.com"/>
+            <outline text="rmurphey" title="rmurphey" type="rss"
+                xmlUrl="http://blog.rebeccamurphey.com/rss.xml" htmlUrl="http://blog.rebeccamurphey.com"/>
+            <outline text="Silicon Alley Insider"
+                title="Silicon Alley Insider" type="rss"
+                xmlUrl="http://feeds.feedburner.com/typepad/alleyinsider/silicon_alley_insider" htmlUrl="http://www.businessinsider.com/sai"/>
+            <outline text="李新阳的博客 | lxy" title="李新阳的博客 | lxy" type="rss"
+                xmlUrl="http://www.lixinyang.com/feed/" htmlUrl="http://www.lixinyang.com"/>
+            <outline text="爱范儿 · Beats of Bits"
+                title="爱范儿 · Beats of Bits" type="rss"
+                xmlUrl="http://www.ifanr.com/feed" htmlUrl="http://www.ifanr.com"/>
+            <outline text="锅蒸之鱼 | 郭震宇的博客 | Edward Guo's Blog"
+                title="锅蒸之鱼 | 郭震宇的博客 | Edward Guo's Blog" type="rss"
+                xmlUrl="http://www.edwardguo.com/feed" htmlUrl="http://www.edwardguo.com"/>
+        </outline>
+        <outline title="Emacs" text="Emacs">
+            <outline text="Chun Tian (binghe)"
+                title="Chun Tian (binghe)" type="rss"
+                xmlUrl="http://tianchunbinghe.blog.163.com/rss/" htmlUrl="http://tianchunbinghe.blog.163.com"/>
+            <outline text="Common-Lisp.net Recent Projects"
+                title="Common-Lisp.net Recent Projects" type="rss"
+                xmlUrl="http://common-lisp.net/rss.xml" htmlUrl="http://common-lisp.net/"/>
+            <outline text="EmacsWiki: RecentChanges"
+                title="EmacsWiki: RecentChanges" type="rss"
+                xmlUrl="http://www.emacswiki.org/emacs/minor-edits.rss" htmlUrl="http://www.emacswiki.org/emacs-en/SiteMap"/>
+            <outline text="Emacs中文网" title="Emacs中文网" type="rss"
+                xmlUrl="http://emacser.com/feed" htmlUrl="http://emacser.com"/>
+            <outline text="Planet Emacsen" title="Planet Emacsen"
+                type="rss" xmlUrl="http://planet.emacsen.org/atom.xml" htmlUrl="http://planet.emacsen.org/"/>
+        </outline>
+        <outline title="debian-ubuntu" text="debian-ubuntu">
+            <outline text="apt-get install debian-wizard"
+                title="apt-get install debian-wizard" type="rss"
+                xmlUrl="http://feeds.feedburner.com/RaphaelHertzogCom" htmlUrl="http://raphaelhertzog.com"/>
+        </outline>
+        <outline title="文学" text="文学">
+            <outline text="不许联想" title="不许联想" type="rss"
+                xmlUrl="http://feeds.feedburner.com/wangxiaofeng" htmlUrl="http://www.wangxiaofeng.net"/>
+            <outline text="吴闲云的BLOG" title="吴闲云的BLOG" type="rss"
+                xmlUrl="http://blog.sina.com.cn/rss/1372048845.xml" htmlUrl="http://blog.sina.com.cn/wdsw888"/>
+            <outline text="纵使变化、依然故我" title="纵使变化、依然故我" type="rss"
+                xmlUrl="http://blog.sina.com.cn/rss/1934761244.xml" htmlUrl="http://blog.sina.com.cn/u/1934761244"/>
+            <outline text="莺莺" title="莺莺" type="rss"
+                xmlUrl="http://www.dream2008.cn/rss.php?uid=1010930" htmlUrl="http://www.dream2008.cn/space.php?uid=1010930"/>
+            <outline text="韩寒" title="韩寒" type="rss"
+                xmlUrl="http://blog.sina.com.cn/rss/1191258123.xml" htmlUrl="http://blog.sina.com.cn/twocold"/>
+        </outline>
+        <outline title="stackexchange" text="stackexchange">
+            <outline
+                text="Recent Questions - Code Review - Stack Exchange"
+                title="Recent Questions - Code Review - Stack Exchange"
+                type="rss"
+                xmlUrl="http://codereview.stackexchange.com/feeds" htmlUrl="http://codereview.stackexchange.com/questions"/>
+            <outline
+                text="Recent Questions - Database Administrators - Stack Exchange"
+                title="Recent Questions - Database Administrators - Stack Exchange"
+                type="rss" xmlUrl="http://dba.stackexchange.com/feeds" htmlUrl="http://dba.stackexchange.com/questions"/>
+            <outline
+                text="Recent Questions - English Language and Usage - Stack Exchange"
+                title="Recent Questions - English Language and Usage - Stack Exchange"
+                type="rss"
+                xmlUrl="http://english.stackexchange.com/feeds" htmlUrl="http://english.stackexchange.com/questions"/>
+            <outline
+                text="Recent Questions - Pro Webmasters - Stack Exchange"
+                title="Recent Questions - Pro Webmasters - Stack Exchange"
+                type="rss"
+                xmlUrl="http://webmasters.stackexchange.com/feeds" htmlUrl="http://webmasters.stackexchange.com/questions"/>
+            <outline
+                text="Recent Questions - Programmers - Stack Exchange"
+                title="Recent Questions - Programmers - Stack Exchange"
+                type="rss"
+                xmlUrl="http://programmers.stackexchange.com/feeds" htmlUrl="http://programmers.stackexchange.com/questions"/>
+            <outline
+                text="Recent Questions - Programming Puzzles &amp; Code Golf - Stack Exchange"
+                title="Recent Questions - Programming Puzzles &amp; Code Golf - Stack Exchange"
+                type="rss"
+                xmlUrl="http://codegolf.stackexchange.com/feeds" htmlUrl="http://codegolf.stackexchange.com/questions"/>
+            <outline
+                text="Recent Questions - SharePoint - Stack Exchange"
+                title="Recent Questions - SharePoint - Stack Exchange"
+                type="rss"
+                xmlUrl="http://sharepoint.stackexchange.com/feeds" htmlUrl="http://sharepoint.stackexchange.com/questions"/>
+            <outline text="Recent Questions - Stack Overflow"
+                title="Recent Questions - Stack Overflow" type="rss"
+                xmlUrl="http://stackoverflow.com/feeds" htmlUrl="http://stackoverflow.com/questions"/>
+            <outline
+                text="Recent Questions - Unix and Linux - Stack Exchange"
+                title="Recent Questions - Unix and Linux - Stack Exchange"
+                type="rss" xmlUrl="http://unix.stackexchange.com/feeds" htmlUrl="http://unix.stackexchange.com/questions"/>
+            <outline
+                text="Recent Questions - User Experience - Stack Exchange"
+                title="Recent Questions - User Experience - Stack Exchange"
+                type="rss" xmlUrl="http://ux.stackexchange.com/feeds" htmlUrl="http://ux.stackexchange.com/questions"/>
+            <outline text="Recent Questions - Web Applications"
+                title="Recent Questions - Web Applications" type="rss"
+                xmlUrl="http://webapps.stackexchange.com/feeds" htmlUrl="http://webapps.stackexchange.com/questions"/>
+        </outline>
+        <outline title="杂" text="杂">
+            <outline text="ChinaUnix.net - IT职业生涯"
+                title="ChinaUnix.net - IT职业生涯" type="rss"
+                xmlUrl="http://bbs.chinaunix.net/rss/32.xml" htmlUrl="http://bbs.chinaunix.net/forumdisplay.php?fid=32"/>
+            <outline text="Freelancer专属™ 博客" title="Freelancer专属™ 博客"
+                type="rss" xmlUrl="http://www.freelancer-life.cn/feed" htmlUrl="http://www.freelancer-life.cn"/>
+            <outline text="gkp's post" title="gkp's post" type="rss"
+                xmlUrl="http://b.gkp.cc/wp-content/plugins/nextgen-gallery/xml/media-rss.php" htmlUrl="http://b.gkp.cc"/>
+            <outline text="Jenny Chen：且行且珍惜" title="Jenny Chen：且行且珍惜"
+                type="rss"
+                xmlUrl="http://jennyspace.blogbus.com/index.rdf" htmlUrl="http://jennyspace.blogbus.com"/>
+            <outline text="sticky comics" title="sticky comics"
+                type="rss" xmlUrl="http://www.stickycomics.com/feed" htmlUrl="http://www.stickycomics.com"/>
+            <outline text="Today's the day" title="Today's the day"
+                type="rss" xmlUrl="http://www.galeki.com/rss" htmlUrl="http://www.galeki.com/"/>
+            <outline text="卡尔维诺中文站" title="卡尔维诺中文站" type="rss"
+                xmlUrl="http://feeds.feedburner.com/calvino" htmlUrl="http://www.ruanyifeng.com/calvino/"/>
+        </outline>
+    </body>
 </opml>
