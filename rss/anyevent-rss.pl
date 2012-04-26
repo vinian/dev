@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+# useage: perl anyevent-rss.pl MyIcedoveFeeds.opml 1>test.html
 
 use strict;
 use warnings;
@@ -33,7 +34,6 @@ my $cv = AnyEvent->condvar(
 my $result;
 $cv->begin( sub { shift->send( $result )} );
 
-print "<html>\n<body>\n";
 foreach my $rss_task ( @rss_urls ) {
   $cv->begin;
   my $request;
@@ -41,7 +41,7 @@ foreach my $rss_task ( @rss_urls ) {
 
   $request = http_request(
 	GET        => $request_url,
-	timeout    => 5,
+	timeout    => 30,
 	sub {
 	  my ($body, $hdr) = @_;
 	  if ( $hdr->{Status} =~ /^2/ ) {
@@ -60,23 +60,29 @@ foreach my $rss_task ( @rss_urls ) {
 $cv->end;
 warn "End of loop.\n";
 my $foo = $cv->recv;
+print "<html>\n<body>\n<table border=1>";
 if ( defined $foo ) {
   foreach my $item ( @$foo ) {
 	my $data = eval {
 	  XMLin( $item );
 	};
 
+	### $data
 	if ( $@ ) {
 	}
 	else {
 	  foreach my $got_rss ( @{$data->{channel}{item}}) {
-		print "<a href=$got_rss->{link}>$got_rss->{title}</a><br>\n";
+		print "<tr>\n";
+		print "<td>$got_rss->{category}</td>\n";
+		print "<td>$got_rss->{pubDate}</td>\n";
+		print "<td><a href=$got_rss->{link}>$got_rss->{title}</a></td>\n";
+		print "</tr>\n";
 	  }
 	}
   }
 }
 
-print "</body>\n</html>";
+print "</table></body>\n</html>";
 sub usage {
   print "Usage:\n$0 ompl-file\n";
   exit 1;
