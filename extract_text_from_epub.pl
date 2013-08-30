@@ -5,10 +5,19 @@ use 5.014;
 use HTML::TagParser;
 use File::Temp qw(tempdir);
 
+use File::Basename;
+
+
 my ($file, $text_file) = @ARGV;
-if (not defined $text_file or $file !~ /epub$/) {
-    say "Usage: $0 file.epub output";
+
+if (not defined $file or $file !~ /epub$/) {
+    say "Usage: $0 file.epub [output]";
     exit 1;
+}
+
+if (not defined $text_file) {
+    my ($name, $path, $suffix) = fileparse($file, '.epub');
+    $text_file = "$name.txt";
 }
 
 if (not -e $file) {
