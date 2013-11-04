@@ -4,9 +4,7 @@ use strict;
 use warnings;
 
 use DBI;
-use DBD::SQLite;
 
-use Cwd;
 use File::Spec qw();
 use File::Find;
 use Fcntl qw(:DEFAULT :flock);
